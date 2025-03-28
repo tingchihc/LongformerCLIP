@@ -29,3 +29,7 @@ To prepare your own dataset for running Longformer.
                         --zero_shot_img /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/images/87737.jpg
 
 ```
+
+## Acknowledgement
+[CLIP](https://huggingface.co/docs/transformers/model_doc/clip)  
+[Longformer](https://huggingface.co/docs/transformers/model_doc/longformer)  
