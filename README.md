@@ -10,7 +10,7 @@ To prepare your own dataset for running Longformer.
     }
     ```
 
----
+## Train & Inference
 ```
     python trainer.py   --input_data /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/train.json \
                         --val_data /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/val.json \ 
