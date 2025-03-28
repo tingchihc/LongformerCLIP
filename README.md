@@ -1,6 +1,16 @@
 # LongformerCLIP
-This repo is to replace text encoder into Longformer.
 
+## Dataset
+To prepare your own dataset for running Longformer.
+- You should resize your images to 214*214.
+- Your dataset json template can follow this:
+    ```
+    {
+        "0": {"product": "text", "image": "image_location"}, ...
+    }
+    ```
+
+---
 ```
     python trainer.py   --input_data /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/train.json \
                         --val_data /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/val.json \ 
