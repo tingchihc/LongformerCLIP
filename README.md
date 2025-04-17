@@ -25,7 +25,7 @@ To prepare your own dataset for running Longformer.
                         --test_data  /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/val.json \
                         --batch_size 16  \
                         --img_txt_similarity_path /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/images/87737.jpg \
-                        --img_txt_similarity_text 牛蒡茶 \
+                        --img_txt_similarity_text black tea \
                         --zero_shot_img /home/grads/tingchih2/workshop/CLIP-myself/my_dataset/images/87737.jpg
 
 ```
